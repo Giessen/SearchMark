@@ -144,7 +144,7 @@ function processSearchResult(result) {
             '<a href="' + result.url + '" target="_blank">' + result.title +'</a>' +
             '<br/>' + result.text + '<br/>' +
             '<span class="resulturl">' + result.url + '</span>&nbsp;' +
-            '<a href="#" class="resultactions">(Offline Version)</a><br/>' + result.img + '<p><br/>';
+            '<br/>' + '' + '<br/>';
     }
 
     $('#resultspagebtm').append(resultString);
